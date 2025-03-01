@@ -60,6 +60,8 @@ pip install -r requirements.txt
 jupyter notebook
 
 4. Execute the cells to preprocess data, train models, and evaluate results.
+   
+5. OR directly access the diployed project https://data-algo-tester-amp.streamlit.app/
 
 ---
 Project Structure
