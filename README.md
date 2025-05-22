@@ -4,7 +4,7 @@ Project Overview
 This project compares the performance of popular classification algorithms like k-Nearest Neighbors (k-NN) and Support Vector Machines (SVM) on multi-class data. The comparison is based on critical performance metrics, including:
 Accuracy
 Training and Prediction Speed
-Computational Complexity
+Computational Complexity  
 
 The project aims to determine the most efficient algorithm for multi-class classification problems.
 Key Features
