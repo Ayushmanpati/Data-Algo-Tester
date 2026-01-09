@@ -20,7 +20,7 @@ from sklearn.decomposition import PCA
 def clean_data(df):
     cleaning_steps = {}
 
-    # Step 1: Drop columns with >50% NaN
+    # Step 1: Drop columns with =>50% NaN
     df2 = df.dropna(thresh=len(df) * 0.5, axis=1)
     cleaning_steps['step1'] = f"Dropped {len(df.columns) - len(df2.columns)} columns with >50% NaN values"
 
@@ -450,4 +450,5 @@ def show_advanced_analysis_page():
         st.rerun()
 
 if __name__ == "__main__":
+
     main()
